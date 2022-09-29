@@ -15,4 +15,4 @@ Overlap test between senescence gene set and module genes was carried out using 
 Genes of 37 AD modules and 33 control modules.
 
 6.TF identification:
-The R/Bioconductor package lionessR version was used to obtain network estimates for single samples.In the example, the input data are the gene expression profiles of AD and normal samples in AD of module AC-AD-7, the interaction information of TFs and targets (module genes), and the protein interaction information of TFs regulating module genes.Then calculate TF-target relationship pairs that have significant differences between AD and normal samples by limma, to construct a TF-module network.
+The R/Bioconductor package lionessR version was used to obtain network estimates for single samples.In the example, the input data are the gene expression profiles of AD and normal samples in AC, the interaction information of TFs and targets (module AC-AD-7), and the protein interaction information of TFs regulating module genes.Then calculate TF-target relationship pairs that have significant differences between AD and normal samples by limma, to construct a TF-module network.
