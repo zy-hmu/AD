@@ -1,6 +1,6 @@
 # AD Data
-1.combat data:
-The detailed information for 12 datasets utilized in this study from GEO. After data normalization, combined the gene expression profiles and removed batch effects between studies by the ComBat algorithm loaded from the R SVA package.
+1.data:
+The gene expression profiles utilized in this study from GEO including AD samples and control samples. After data normalization, combined the gene expression profiles and removed batch effects between studies by the ComBat algorithm loaded from the R SVA package.
 
 2.WGCNA:
 Weighted gene co-expression network analysis was performed to identify the gene modules with coordinated expression patterns for each brain region. The top 5000 genes of average expression in each brain region were taken as input genes, and co-expression networks were constructed using the R package WGCNA.
